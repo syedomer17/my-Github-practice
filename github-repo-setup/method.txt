@@ -1,0 +1,52 @@
+1️⃣ GitHub Repository Setup (`github-repo-setup`)
+
+This is the very first step in any Git project.
+
+📖 Explanation
+
+A Git repository setup means:
+
+* Initializing a local Git repo.
+* Linking it to a remote GitHub repo.
+* Making your first commit and push.
+
+🛠 Steps
+
+1. Initialize Git in a folder
+
+git init
+
+*(Creates a `.git` folder which tracks changes)*
+
+2. Check Git status
+
+git status
+
+3. Add remote GitHub repository
+
+git remote add origin <repo-URL>
+
+
+4. Add files to staging0
+
+git add .
+
+5. Commit change
+
+git commit -m "Initial commit"
+
+
+6. Push to GitHub
+
+git push -u origin main
+
+📝 Notes for `github-repo-setup`
+
+📌 GitHub Repository Setup
+1. git init → Initialize Git in local folder.
+2. git remote add origin <URL> → Link local repo to GitHub.
+3. git add . → Stage all changes.
+4. git commit -m "msg" → Save staged changes.
+5. git push -u origin main → Push to GitHub.
+
+ Tip: Replace 'main' with 'master' if your default branch is named master.
